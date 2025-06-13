@@ -1,4 +1,10 @@
 
+import os
+
+def clear_screen():
+    os.system('cls' if os.name == 'nt' else 'clear')
+
+
 dict = {}
 
 max_value = 0
@@ -16,8 +22,8 @@ print('''
          )"""""""(
         /_________\
         `'-------'`
-       .-------------.
-    gs/_______________\ ''')
+      .-------------.
+     /_______________\ ''')
 
 print("Welcome to the secret auction program.")
 
@@ -29,6 +35,8 @@ while True:
     dict[name] = bid
 
     choice = input("Are there any more bidders? Type 'yes' or 'no'.\n").lower()
+
+    clear_screen() 
     
     if choice == 'no':
         for key in dict:
