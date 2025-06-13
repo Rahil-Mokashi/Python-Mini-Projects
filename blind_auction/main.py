@@ -11,7 +11,7 @@ max_value = 0
 
 max_key = ''
 
-print(''' 
+logo = '''  
         ___________
         \         /
          )_______(
@@ -23,10 +23,12 @@ print('''
         /_________\
         `'-------'`
       .-------------.
-     /_______________\ ''')
+     /_______________\ 
+'''
+
+print(logo)
 
 print("Welcome to the secret auction program.")
-
 while True:
     name = input("what is your name?: ")
 
