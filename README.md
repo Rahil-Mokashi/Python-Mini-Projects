@@ -44,7 +44,13 @@ The player tries to guess the computer’s number within a limited number of att
 
 ### 🟢 [Higher or Lower Game](./higher_lower_game)
 A terminal game where you guess which celebrity or influencer has more followers.  
-Includes score tracking, replay option, and colorful terminal output.
+Includes score tracking, replay option, and precise terminal output.
+
+---
+
+### 🍵 [Coffee Machine](./coffee_machine/)
+A terimal based coffee machine which has currently 3 drinks to pick from and enjoy.
+Include resources tracking, coins processing, and refreshing coffee output
 
 ---
 
