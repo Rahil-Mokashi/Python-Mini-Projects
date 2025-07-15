@@ -54,6 +54,11 @@ Include resources tracking, coins processing, and refreshing coffee output
 
 ---
 
+### 🧠 [Quiz Game](./quiz_game/)
+A terminal based quiz game which is a true/false based game the user inputs the boolean expression. Includes user interaction, score counter, correct information.
+
+---
+
 ## 💻 How to Run
 
 1. Clone this repository:
