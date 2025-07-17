@@ -14,13 +14,17 @@ def color():
     return color_combo
 
 
-tim.width(5)
+tim.width(2)
 
-tim.speed(10)
-for i in range(36):
-    tim.pencolor(color())
-    tim.circle(100)
-    tim.left(10)
+tim.speed("fastest")
+
+def drawing_spirograph(size):
+    for i in range(int(360 / size)):
+        tim.pencolor(color())
+        tim.circle(100)
+        tim.setheading(tim.heading() + size)
+        
+drawing_spirograph(3)
 
 
 screen = Screen()
