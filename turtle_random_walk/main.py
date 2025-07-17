@@ -1,12 +1,8 @@
 import turtle as t
 from turtle import Screen
-import random as r
+import random as ran
 
-colors = [
-    "red", "blue", "green", "orange", "purple", "yellow", "pink",
-    "cyan", "magenta", "lime", "maroon", "navy", "teal", "violet",
-    "brown", "gold", "silver", "coral", "turquoise", "indigo"
-]
+t.colormode(255)
 
 direction = [0, 90, 180, 270]
 
@@ -15,9 +11,12 @@ tim.shape("classic")
 
 tim.width(7)
 tim.speed("fastest")
-for i in range(250): 
-    tim.pencolor(r.choice(colors))
-    tim.setheading(r.choice(direction))
+for i in range(250):
+    r = ran.randint(0, 255)
+    g = ran.randint(0, 255)
+    b = ran.randint(0, 255)
+    tim.pencolor((r,g,b))
+    tim.setheading(ran.choice(direction))
     tim.forward(20)
 
 
