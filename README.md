@@ -63,10 +63,10 @@ A terminal based quiz game which is a true/false based game the user inputs the 
 
 Explore a collection of Python Turtle-based visual programs. These beginner-friendly designs demonstrate loops, randomness, and basic drawing logic.
 
-- **hirst_painting/**: A dot-style painting inspired by artist Damien Hirst using randomly selected colors extracted from an image.
-- **random_walk/**: Simulates a turtle randomly walking around the screen with changing colors and directions.
-- **shapes_pattern/**: Draws different geometric shapes (triangle to decagon) with unique colors using loops and angles.
-- **spirograph/**: Creates a vibrant spirograph using overlapping circles and color rotation logic.
+- **hirst_painting**: A dot-style painting inspired by artist Damien Hirst using randomly selected colors extracted from an image.
+- **random_walk**: Simulates a turtle randomly walking around the screen with changing colors and directions.
+- **shapes_pattern**: Draws different geometric shapes (triangle to decagon) with unique colors using loops and angles.
+- **spirograph**: Creates a vibrant spirograph using overlapping circles and color rotation logic.
 
 ## 💻 How to Run
 
