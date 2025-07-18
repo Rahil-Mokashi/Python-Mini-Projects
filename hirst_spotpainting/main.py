@@ -10,6 +10,7 @@ tim.speed("fastest")
 screen = Screen()
 tim.penup()
 screen.setup(width=600, height=600)
+tim.hideturtle() 
 
 colors = cg.extract('hirst_spot.webp', 100)
 all_colors = []
@@ -37,7 +38,6 @@ for dot_count in range(1, 122):
         tim.fd(50*11)
         tim.setheading(0)
    
-tim.hideturtle() 
 tim.home()
 
 screen.exitonclick()
